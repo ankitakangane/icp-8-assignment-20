@@ -40,3 +40,53 @@ body{
        padding-left: 5px;
 
   }
+  .nav_bar{
+      position: fixed;
+      bottom:0;
+      left:0;
+      width:100%;
+      background-color: lightblue;
+      color:#fff;
+      display:none;
+  }
+  .bottom_img{
+      background-color: #fff;
+     margin:10px;
+     padding:10px;
+     border-radius: 10px;
+  }
+  .active{
+      background-color:#99ffd6;
+  }
+  /* for small device*/
+  @media screen and (max-width:600px){
+     .sidebar{
+      display: none;
+     }
+     .nav_bar{
+      display: flex;
+      justify-content:space-around;
+     }
+    
+  }
+   /* for normal device*/
+   @media screen and (min-width:601px) and (max-width:768px){
+      .sidebar{
+      display: none;
+     }
+     .nav_bar{
+      display: flex;
+      justify-content:space-around;
+
+     }
+    
+
+   }
+    /* for tablet device*/
+    @media screen and (min-width:769px) and (max-width:992px){
+
+    }
+    /* for large device*/
+  @media screen and (min-width:993px) and (max-width:1200px){
+
+  }
