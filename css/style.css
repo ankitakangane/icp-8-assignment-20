@@ -82,11 +82,41 @@ body{
     
 
    }
-    /* for tablet device*/
-    @media screen and (min-width:769px) and (max-width:992px){
-
+/* for tablet device*/
+@media screen and (min-width:769px) and (max-width:992px){
+    .sidebar{
+        background-color: lightblue;
+        width:220px;
     }
-    /* for large device*/
-  @media screen and (min-width:993px) and (max-width:1200px){
 
-  }
+    .menu_item{
+        background-color: #fff;
+        margin:10px;
+        border-radius:5px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding:5px 10px;
+        cursor: pointer;
+        text-decoration: none;
+    }
+}
+/* for large device*/
+@media screen and (min-width:993px) and (max-width:1200px){
+.sidebar{
+    background-color: lightblue;
+    width:220px;
+}
+
+.menu_item{
+    background-color: #fff;
+    margin:10px;
+    border-radius:5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding:5px 10px;
+    cursor: pointer;
+    text-decoration: none;
+}
+}
